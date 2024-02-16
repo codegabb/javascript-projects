@@ -9,6 +9,7 @@ strings = [protoArray1, protoArray2, protoArray3, protoArray4];
 function reverseCommas() {
 	//TODO: 1. create and instantiate your variables.
 	let check;
+	//put in brackets to access protoArray1 
 	let output;
 	//TODO: 2. write the code required for this step
 

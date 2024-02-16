@@ -4,6 +4,12 @@ let str = "LaunchCode";
 //1) Use string methods to remove the first three characters from the string and add them to the end.
 //Hint - define another variable to hold the new string or reassign the new string to str.
 
+// Add the removed characters to the end of the string
+str = str.slice(3) + removedCharacters;
+
+console.log(str);
+
+
 //Use a template literal to print the original and modified string in a descriptive phrase.
 
 //2) Modify your code to accept user input. Query the user to enter the number of letters that will be relocated.
