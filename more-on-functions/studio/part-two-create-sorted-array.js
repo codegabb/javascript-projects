@@ -8,6 +8,21 @@ function findMinValue(arr){
   return min;
 }
 
+function sortArray(arr) {
+  let sortedNumbers = []
+  while (arr.length != 0) {
+
+  temp = findMinValue(arr);
+  newArr.push(temp);
+  let indextoRemove = arr.indexOf(temp);
+  if (indexToRemomve !== -1) {
+    arr.splice(indextoRemove, 1);
+  }
+}
+}
+
+console.log(sortArray(nums1))
+
 //Create a function with an array of numbers as its parameter. This function will return a new array with the numbers sorted from least to greatest value.
 
 /*Within the function:

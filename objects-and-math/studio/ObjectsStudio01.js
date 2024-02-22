@@ -1,7 +1,23 @@
 // Code your selectRandomEntry function here:
-
+function selectRandomEntry(arr){
+  let index = math.floor(math.random()* arr.length)
+  return arr[index];
+}
 
 // Code your buildCrewArray function here:
+let callCount = 0;
+let newArr = [];
+
+while (arr.length !== 0 && callCount < 3){
+  let id = selectRandomEntry(arr);
+  if (newArr.length === 0){
+    newArr.push(id)
+  }else if (!newArr.includes(id)) {
+    newArr.push(id)
+    callCount++;
+  }
+  }
+
 
 
 let idNumbers = [291, 414, 503, 599, 796, 890];
